@@ -1,0 +1,1116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.fa-bars {
+    font-size: 35px;
+}
+
+.section1 {
+    background-image: url(img/sekil2.jpg);
+    height: 900px;
+    background-position: 50% 50%;
+}
+
+.textImg img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.textImg {
+    height: 700px;
+    width: 450px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding-top: 60px;
+}
+
+.text h3 {
+    font-family: Montserrat, sans-serif;
+    font-size: 30px;
+}
+
+.text h1 {
+    font-size: 65px;
+    font-family: Montserrat, sans-serif;
+}
+
+.textButton {
+    padding: 15px;
+    width: 150px;
+    background-color: #f67b6f;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+
+.section2 {
+    background-color: #f67b6f;
+}
+
+.section2 h1 {
+    text-align: center;
+    padding: 20px;
+    font-size: 50px;
+    color: white;
+}
+
+.box {
+    background-color: white;
+    height: 350px;
+    width: 350px;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+
+.boxImg img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.boxImg {
+    height: 200px;
+    width: 300px;
+    margin-left: 5px;
+}
+
+.box h4 {
+    font-size: 25px;
+    font-family: Montserrat, sans-serif;
+    text-align: left;
+    padding-top: 30px;
+}
+
+.boxContainer {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+.section3 {
+    background-color: #d3e1e0;
+    height: 900px;
+}
+
+.circle1 {
+    background-image: url(img/sekil7.jpg);
+    border-radius: 100%;
+    background-size: cover;
+    height: 500px;
+    width: 500px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    z-index: 1;
+}
+
+.circle2 {
+    background-color: #f67b6f;
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    position: absolute;
+    right: -50px;
+    z-index: 2;
+}
+
+.textBox {
+    background-color: white;
+    height: 350px;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    border-radius: 40px;
+    padding: 20px;
+    gap: 20px;
+    position: relative;
+    top: 50px;
+    right: 100px;
+    box-shadow: 0px 0px 5px gray;
+}
+
+.textBox h2 {
+    width: 350px;
+    font-size: 40px;
+    font-family: Montserrat, sans-serif;
+}
+
+.textBoxButton {
+    width: 150px;
+    padding: 15px;
+    margin-right: 200px;
+    border-radius: 20px;
+    border: none;
+    background-color: #f67b6f;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.textBox p {
+    width: 350px;
+    line-height: 1.5;
+    font-family: Montserrat, sans-serif;
+}
+
+.positionContainer {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.posContainer {
+    position: relative;
+}
+
+.section4 {
+    background-image: url(img/sekil8.jpg);
+
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 140vh;
+    position: relative;
+
+}
+
+.sectionBox {
+    height: 220px;
+    width: 220px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 0px 0px 5px gray;
+    padding: 20px;
+}
+
+.sectionBox h3 {
+    font-size: 25px;
+    color: #476160;
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 3px;
+}
+
+.iconBox {
+    height: 100px;
+    width: 100px;
+    background-color: #d3e1e0;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    font-size: 45px;
+    color: white;
+}
+
+.containersection {
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+    gap: 20px;
+}
+
+.containersection2 {
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+    gap: 20px;
+}
+
+.containersection3 {
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+    gap: 20px;
+}
+
+.containerAll {
+    position: relative;
+    top: 50px;
+    right: 100px;
+    z-index: 1;
+}
+
+.circleSection {
+    height: 600px;
+    width: 600px;
+    background-color: #476160;
+    position: absolute;
+    border-radius: 100%;
+    top: 100px;
+    left: 100px;
+    opacity: .5;
+}
+
+.section5 {
+    position: relative;
+    height: 1200px;
+}
+
+.kubContainer {
+    display: flex;
+}
+
+.kub1 {
+    height: 400px;
+    width: 700px;
+    background-color: #f67b6f;
+}
+
+.kub2 {
+    background-color: #d3e1e0;
+    height: 300px;
+    width: 600px;
+    position: relative;
+    top: 200px;
+}
+
+.kubCircle {
+    background-image: url(img/sekil9.jpg);
+    background-size: cover;
+    height: 550px;
+    width: 550px;
+    border-radius: 100%;
+    position: absolute;
+    top: 100px;
+}
+
+.kubBox {
+    height: 500px;
+    width: 500px;
+    background-color: #476160;
+    border-radius: 40px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    color: white;
+    z-index: 1;
+    position: relative;
+    top: 80px;
+    left: 150px;
+    box-shadow: 0px 0px 5px gray;
+}
+
+.kubBox h3 {
+    padding-top: 20px;
+    font-size: 40px;
+    font-family:sans-serif;
+
+}
+
+.kubBox p {
+    line-height: 1.5;
+    font-size: 20px;
+    text-align: center;
+}
+
+.kubButton {
+    padding: 15px;
+    width: 150px;
+    border-radius: 20px;
+    border: none;
+    background-color: #f67b6f;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.kubContainer2 {
+    display: flex;
+    justify-content: center;
+}
+
+.kubText {
+    font-family: Montserrat, sans-serif;
+    width: 400px;
+    font-size: 20px;
+    line-height: 1.5;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    font-style: italic;
+}
+.section6{
+    background-color: #476160;
+    position: relative;
+   
+}
+.circleOne{
+    height: 600px;
+    width: 600px;
+    background-image: url(img/sekil10.jpg);
+    background-size: cover;
+    border-radius: 100%;
+    border: 20px solid #f67b6f;
+    position: relative;
+    top: 100px;
+    left: 170px;
+}
+.circleTwo{
+    height: 280px;
+    width: 280px;
+    background-image: url(img/sekil11.jpg);
+    background-size: cover;
+    border-radius: 100%;
+    position: relative;
+    bottom: 100px;
+    left: 50px;
+}
+.circleThree{
+    height: 150px;
+    width: 150px;
+    border: 30px solid #f67b6f ;
+    border-radius: 100%;
+    opacity: .7;
+    position: relative;
+    bottom: 100px;
+    
+}
+.circleFour{
+    height: 250px;
+    width: 250px;
+    border: 40px solid #f67b6f;
+    border-radius: 100%;
+    position: relative;
+    bottom: 200px;
+    left: 200px;
+}
+.cubBox{
+    height: 500px;
+    width: 500px;
+    background-color: white;
+    box-shadow: 0px 0px 5px gray;
+    border-radius: 40px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    position: relative;
+    top: 400px;
+    right: 100px;
+    font-size: 20px;
+}
+.cubBox h3{
+    font-size: 40px;
+    font-family: Montserrat, sans-serif;
+}
+.cubBox p{
+    font-family: Montserrat, sans-serif;
+    line-height: 1.5;
+    text-align: center;
+}
+.cubButton{
+    padding: 15px;
+    width: 150px;
+    border-radius: 40px;
+    border: none;
+    background-color: #f67b6f;
+    color: white;
+    letter-spacing: 2px;
+}
+.all{
+    display: flex;
+    justify-content: center;
+}
+.section7{
+    background-color: #f67b6f;
+}
+.oneText{
+    width: 500px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: Montserrat, sans-serif;
+}
+.oneText h2{
+    font-size: 40px;
+}
+.oneText p{
+    font-size: 20px;
+}
+.oneText h4{
+    font-size: 25px;
+}
+.twoText{
+    font-family: Montserrat, sans-serif;
+    line-height: 2;
+    width: 450px;
+}
+.textContainer{
+    display: flex;
+    padding: 40px;
+}
+.threeTexts{
+    display: flex;
+}
+.texts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    color: white;
+}
+.smallText{
+    text-align: center;
+    width: 300px;
+    padding: 20px;
+}
+.smallText h2{
+    font-size: 60px;
+    font-weight: bolder;
+}
+.section8{
+    background-color: #d3e1e0;
+    position: relative;
+    height: 1200px;
+}
+.formCircleOne{
+    height: 300px;
+    width: 300px;
+    border: 50px solid #f67b6f;
+    border-radius: 100%;
+    position: relative;
+    left: 600px;
+    top: 50px;
+}
+.formCircleTwo{
+    height: 700px;
+    width: 700px;
+    background-image: url(img/sekil12.jpg);
+    border-radius: 100%;
+    border: 20px solid #f67b6f;
+    position: relative;
+    bottom: 200px;
+    left: 100px;
+}
+.formCircleThree{
+    height: 250px;
+    width: 250px;
+    background-color: #f67b6f;
+    border-radius: 100%;
+    position: relative;
+    bottom: 350px;
+    left: 100px;
+}
+.formCircleFour{
+    height: 150px;
+    width: 150px;
+    border: 30px solid #f67b6f;
+    border-radius: 100%;
+    opacity: .6;
+    position: absolute;
+    bottom: 200px;
+    left: 350px;
+}
+.forms h3{
+    font-size: 40px;
+}
+.forms{
+    height: 550px;
+    width: 500px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    top: 500px;
+    right: 200px;
+}
+.input{
+    width: 100%;
+    border: none;
+    background-color: #d3e1e0;
+    padding: 15px;
+    border-radius: 20px;
+    outline: none;
+}
+.buttonForm{
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: #f67b6f;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.buttonForm:hover{
+    background-color: black;
+}
+.formContainer{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+@media(max-width:1200px){
+    .formCircleOne{
+    height: 270px;
+    width: 270px;
+    border: 50px solid #f67b6f;
+    border-radius: 100%;
+    position: relative;
+    left: 500px;
+    top: 50px;
+}
+.formCircleTwo{
+    height: 600px;
+    width: 600px;
+    background-image: url(img/sekil12.jpg);
+    border-radius: 100%;
+    border: 20px solid #f67b6f;
+    position: relative;
+    bottom: 200px;
+    left: 100px;
+}
+.formCircleThree{
+    height: 220px;
+    width: 220px;
+    background-color: #f67b6f;
+    border-radius: 100%;
+    position: relative;
+    bottom: 350px;
+    left: 100px;
+}
+.formCircleFour{
+    height: 150px;
+    width: 150px;
+    border: 30px solid #f67b6f;
+    border-radius: 100%;
+    opacity: .6;
+    position: absolute;
+    bottom: 200px;
+    left: 320px;
+    z-index: 1;
+}
+.forms{
+    height: 450px;
+    width: 400px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    top: 550px;
+    right: 250px;
+}
+}
+
+@media(max-width:1000px){
+ 
+    .formCircleOne{
+    height: 130px;
+    width: 130px;
+    border: 30px solid #f67b6f;
+    border-radius: 100%;
+    position: relative;
+    left: 300px;
+    top: 0px;
+}
+.formCircleTwo{
+    height: 300px;
+    width: 300px;
+    background-image: url(img/sekil12.jpg);
+    border-radius: 100%;
+    border: 20px solid #f67b6f;
+    position: relative;
+    bottom: 100px;
+    left: 150px;
+}
+.formCircleThree{
+    height: 150px;
+    width: 150px;
+    background-color: #f67b6f;
+    border-radius: 100%;
+    position: relative;
+    bottom: 200px;
+    left: 200px;
+}
+.formCircleFour{
+    height: 120px;
+    width: 120px;
+    border: 30px solid #f67b6f;
+    border-radius: 100%;
+    opacity: .6;
+    position: absolute;
+    bottom: 200px;
+    left: 200px;
+    z-index: 1;
+}
+.forms{
+    height:fit-content;
+    width: 400px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    top: 550px;
+    right: 150px;
+}
+}
+@media(max-width:1100px){
+    .twoText{
+    padding: 50px;
+    font-family: Montserrat, sans-serif;
+    line-height: 1.5;
+    width: 450px;
+}
+  
+    .oneText h4{
+    font-size: 15px;
+}
+    .oneText{
+    width: 400px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: Montserrat, sans-serif;
+    padding: 80px;
+    text-align: center;
+}
+    .oneText h2{
+    font-size: 20px;
+}
+    .threeTexts{
+    display: flex;
+    flex-direction: column;
+}
+    .textContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    align-items: center;
+    gap: 20px;
+}
+.oneText{
+    width: 500px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-family: Montserrat, sans-serif;
+}
+}
+@media(max-width:1100px){
+    .circleOne{
+    height: 500px;
+    width: 500px;
+    background-image: url(img/sekil10.jpg);
+    background-size: cover;
+    border-radius: 100%;
+    border: 20px solid #f67b6f;
+    position: relative;
+    top: 100px;
+    left: 170px;
+}
+.circleTwo{
+    height: 220px;
+    width: 220px;
+    background-image: url(img/sekil11.jpg);
+    background-size: cover;
+    border-radius: 100%;
+    position: relative;
+    bottom: 100px;
+    left: 100px;
+}
+.circleThree{
+    height: 120px;
+    width: 120px;
+    border: 20px solid #f67b6f ;
+    border-radius: 100%;
+    opacity: .7;
+    position: relative;
+    bottom: 100px;
+    
+}
+.circleFour{
+    height: 200px;
+    width: 200px;
+    border: 40px solid #f67b6f;
+    border-radius: 100%;
+    position: relative;
+    bottom: 200px;
+    left: 150px;
+}
+.cubBox{
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    box-shadow: 0px 0px 5px gray;
+    border-radius: 40px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    position: relative;
+    top: 400px;
+    right: 100px;
+    font-size: 20px;
+}
+}
+@media(max-width:910px){
+    .all{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+    .circleOne{
+    height: 350px;
+    width: 350px;
+    background-image: url(img/sekil10.jpg);
+    background-size: cover;
+    border-radius: 100%;
+    border: 20px solid #f67b6f;
+    position: relative;
+    top: 100px;
+    left: 0px;
+}
+.circleTwo{
+    height: 180px;
+    width: 180px;
+    background-image: url(img/sekil11.jpg);
+    background-size: cover;
+    border-radius: 100%;
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+}
+.circleThree{
+    height: 120px;
+    width: 120px;
+    border: 20px solid #f67b6f ;
+    border-radius: 100%;
+    opacity: .7;
+    position: relative;
+    bottom: 0px;
+    
+}
+.circleFour{
+    height: 180px;
+    width: 180px;
+    border: 30px solid #f67b6f;
+    border-radius: 100%;
+    position: relative;
+    bottom: 50px;
+    left: 150px;
+}
+.cubBox{
+    height: 350px;
+    width: 350px;
+    background-color: white;
+    box-shadow: 0px 0px 5px gray;
+    border-radius: 40px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    font-size: 20px;
+}
+.cubBox h3{
+    font-size: 25px;
+    font-family: Montserrat, sans-serif;
+}
+.cubBox p{
+    font-family: Montserrat, sans-serif;
+    line-height: 1;
+    text-align: center;
+}
+}
+@media(max-width:1000px){
+    .kub1 {
+    height: 400px;
+    width: 600px;
+    background-color: #f67b6f;
+}
+.kubCircle {
+    background-image: url(img/sekil9.jpg);
+    background-size: cover;
+    height: 500px;
+    width: 500px;
+    border-radius: 100%;
+    position: absolute;
+    top: 100px;
+}
+.kubBox {
+    height: 400px;
+    width: 400px;
+    background-color: #476160;
+    border-radius: 40px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    color: white;
+    z-index: 1;
+    position: relative;
+    top: 80px;
+    left: 150px;
+}
+
+}
+@media(max-width:770px){
+    .section5{
+        height:1500px;
+    }
+    .kub1 {
+    height: 400px;
+    width: 500px;
+    background-color: #f67b6f;
+}
+.kub2 {
+    background-color: #d3e1e0;
+    height: 500px;
+    width: 600px;
+    position: relative;
+    top: 200px;
+}
+.kubCircle {
+    background-image: url(img/sekil9.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    position: absolute;
+    top: 200px;
+}
+.kubBox {
+    height: 600px;
+    width: 350px;
+    background-color: #476160;
+    border-radius: 40px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    color: white;
+    z-index: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+.kubText {
+    font-family: Montserrat, sans-serif;
+    width: 400px;
+    font-size: 20px;
+    line-height: 1.5;
+    position: relative;
+    top: 80px;
+    left: 20px;
+    
+}
+
+}
+@media (max-width: 1024px) {
+
+    .containersection,
+    .containersection2,
+    .containersection3 {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .sectionBox {
+        width: 260px;
+        height: auto;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .containersection,
+    .containersection2,
+    .containersection3 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sectionBox {
+        width: 90%;
+        max-width: 280px;
+        height: auto;
+    }
+
+    .containerAll {
+        top: 0;
+        right: 0;
+    }
+
+    .circleSection {
+        width: 300px;
+        height: 300px;
+
+        top: 600px;
+    }
+}
+
+
+
+
+@media(max-width:1100px) {
+    .circle2 {
+        background-color: #f67b6f;
+        height: 150px;
+        width: 150px;
+        border-radius: 100%;
+        position: absolute;
+        right: -200px;
+        z-index: 2;
+    }
+
+    .textBox {
+        background-color: white;
+        height: 350px;
+        width: 600px;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        border-radius: 40px;
+        padding: 20px;
+        gap: 20px;
+        position: relative;
+        top: 50px;
+        right: 100px;
+    }
+
+    .circle1 {
+        background-image: url(img/sekil7.jpg);
+        border-radius: 100%;
+        background-size: cover;
+        height: 400px;
+        width: 400px;
+        position: relative;
+        top: 150px;
+        left: 150px;
+        z-index: 1;
+    }
+}
+
+@media(max-width:800px) {
+    .textBox p {
+        width: fit-content;
+        line-height: 1.5;
+        font-family: Montserrat, sans-serif;
+    }
+
+    .textBox h2 {
+        width: 350px;
+        font-size: 20px;
+        font-family: Montserrat, sans-serif;
+    }
+
+    .circle2 {
+        background-color: #f67b6f;
+        height: 150px;
+        width: 150px;
+        border-radius: 100%;
+        position: absolute;
+        bottom: -200px;
+        ;
+        right: -200px;
+        z-index: 2;
+    }
+
+    .textBox {
+        background-color: white;
+        height: 350px;
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        border-radius: 40px;
+        padding: 20px;
+        gap: 20px;
+        position: relative;
+        top: 0px;
+        right: 180px;
+    }
+
+    .circle1 {
+        background-image: url(img/sekil7.jpg);
+        border-radius: 100%;
+        background-size: cover;
+        height: 350px;
+        width: 350px;
+        position: relative;
+        top: 300px;
+        left: 200px;
+        z-index: 1;
+    }
+}
+
+@media(max-width:1110px) {
+    .boxContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+}
+
+@media(max-width:688px) {
+    .text h3 {
+        font-family: Montserrat, sans-serif;
+        font-size: 20px;
+    }
+
+    .text h1 {
+        font-size: 45px;
+        text-align: center;
+    }
+
+    .textImg {
+        height: 640px;
+        width: 450px;
+    }
+}
